@@ -1,0 +1,3 @@
+{
+    "extends": "@argodevops/eslint-config/node"
+}

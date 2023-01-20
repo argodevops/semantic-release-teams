@@ -1,0 +1,71 @@
+{
+  "name": "@argodevops/semantic-release-teams",
+  "version": "1.0.10",
+  "description": "plugin for semantic release to notify multiple teams channels of a release",
+  "main": "index.js",
+  "packageManager:": "pnpm@7.25.0",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "test": "jest",
+    "lint": "eslint \"./src/**\" --fix",
+    "pretty": "prettier --write \"src/**/*.{js*,ts}\"",
+    "prepare": "is-ci || husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argodevops/semantic-release-teams.git"
+  },
+  "keywords": [
+    "semantic-release"
+  ],
+  "author": "ryan.b@argodevops.co.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/argodevops/semantic-release-teams/issues"
+  },
+  "homepage": "https://github.com/argodevops/semantic-release-teams#readme",
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "devDependencies": {
+    "@argodevops/eslint-config": "^1.2.0",
+    "@argo/sematic-release-teams": "1.0.0",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/transformer-js": "^2.8.3",
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/npm": "^9.0.2",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "@types/jest": "^29.2.6",
+    "axios-mock-adapter": "^1.21.2",
+    "babel-jest": "^29.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.32.0",
+    "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
+    "jest": "^29.3.1",
+    "parcel": "^2.8.3",
+    "semantic-release": "^19.0.5",
+    "semantic-release-npm-deprecate": "^1.0.34"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "@semantic-release/error": "^3.0.0",
+    "@semantic-release/git": "^10.0.1",
+    "axios": "^1.2.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "json5@<2.2.2": ">=2.2.2",
+      "debug@<3.1.0": ">=3.1.0"
+    }
+  }
+}
