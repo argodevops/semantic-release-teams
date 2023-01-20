@@ -1,6 +1,6 @@
 {
   "name": "@argodevops/semantic-release-teams",
-  "version": "1.0.112",
+  "version": "1.0.12",
   "description": "plugin for semantic release to notify multiple teams channels of a release",
   "source": "src/index.js",
   "main": "dist/index.js",
