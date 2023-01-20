@@ -2,7 +2,7 @@
 const pkg = require('./package.json');
 
 const branches = [
-    'master',
+    'main',
     {
         name: 'alpha',
         prerelease: true
