@@ -1,8 +1,8 @@
 {
   "name": "@argodevops/semantic-release-teams",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "plugin for semantic release to notify multiple teams channels of a release",
-  "main": "index.js",
+  "main": "dist/index.js",
   "packageManager:": "pnpm@7.25.0",
   "scripts": {
     "watch": "parcel watch",
