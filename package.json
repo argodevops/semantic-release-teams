@@ -31,7 +31,7 @@
   ],
   "devDependencies": {
     "@argodevops/eslint-config": "^1.2.0",
-    "@argo/sematic-release-teams": "1.0.0",
+    "@argodevops/semantic-release-teams": "^1.0.0",
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
     "@parcel/config-default": "^2.8.3",

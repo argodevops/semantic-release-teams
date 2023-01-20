@@ -5,8 +5,8 @@ overrides:
   debug@<3.1.0: '>=3.1.0'
 
 specifiers:
-  '@argo/sematic-release-teams': 1.0.0
   '@argodevops/eslint-config': ^1.2.0
+  '@argodevops/semantic-release-teams': ^1.0.0
   '@babel/core': ^7.20.12
   '@babel/preset-env': ^7.20.2
   '@parcel/config-default': ^2.8.3
@@ -36,8 +36,8 @@ dependencies:
   axios: 1.2.3
 
 devDependencies:
-  '@argo/sematic-release-teams': 1.0.0_semantic-release@19.0.5
   '@argodevops/eslint-config': 1.2.0_yksdpke5zgszc26tz7tss6woxe
+  '@argodevops/semantic-release-teams': 1.0.10_semantic-release@19.0.5
   '@babel/core': 7.20.12
   '@babel/preset-env': 7.20.2_@babel+core@7.20.12
   '@parcel/config-default': 2.8.3_@parcel+core@2.8.3
@@ -68,18 +68,6 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@argo/sematic-release-teams/1.0.0_semantic-release@19.0.5:
-    resolution: {integrity: sha512-oCa+nFYXQ+UN9s96PvGNfM0INr0hO8E3tW76VeqRc+SXAaoMnx2jCDATJRr/UNGXT/yG95HqpAq5haOAOn/r2w==}
-    dependencies:
-      '@semantic-release/error': 3.0.0
-      '@semantic-release/git': 10.0.1_semantic-release@19.0.5
-      axios: 1.2.3
-    transitivePeerDependencies:
-      - debug
-      - semantic-release
-      - supports-color
-    dev: true
-
   /@argodevops/eslint-config/1.2.0_yksdpke5zgszc26tz7tss6woxe:
     resolution: {integrity: sha512-jmeqtuLWQWtybl6rMwl5FF9poxudJ4gJq5nMeH4SKoerzMp046eD+ARwUQlhC84GjCr6/FA0Sv7cfRL9MgSVhQ==}
     dependencies:
@@ -102,6 +90,18 @@ packages:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - prettier
+      - supports-color
+    dev: true
+
+  /@argodevops/semantic-release-teams/1.0.10_semantic-release@19.0.5:
+    resolution: {integrity: sha512-oGnxsj6C6/sKTU6XHAmPiHVtzOdlCE2W85eNSPLWenlFz5f1OR3881uDEyOYM+09jfvCY8tfc8zx8k5K7HDB+w==}
+    dependencies:
+      '@semantic-release/error': 3.0.0
+      '@semantic-release/git': 10.0.1_semantic-release@19.0.5
+      axios: 1.2.3
+    transitivePeerDependencies:
+      - debug
+      - semantic-release
       - supports-color
     dev: true
 
