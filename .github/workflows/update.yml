@@ -42,12 +42,15 @@ jobs:
         run: pnpm install
 
       - name: Update dependencies
-        run: pnpm update
-        run: pnpm audit --fix
-        run: pnpm install --no-frozen-lockfile
+        run: |
+          pnpm update
+          pnpm audit --fix
+          pnpm install --no-frozen-lockfile
 
-      - name: Build and test
+      - name: Build
         run: pnpm build
+
+      - name: Test
         run: pnpm test
 
       - uses: stefanzweifel/git-auto-commit-action@v4

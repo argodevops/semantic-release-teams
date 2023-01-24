@@ -8,7 +8,7 @@
 
 {
     plugins: [
-        '@argodevops/sematic-release-teams', { packageName: 'package_one', envKey: 'NOTIFY_URLS' }
+        '@argodevops/semantic-release-teams', { packageName: 'package_one', envKey: 'NOTIFY_URLS' }
     ]
 }
 ```
