@@ -105,7 +105,7 @@ module.exports = {
         releaseNotesGenerator,
         changelog,
         npm,
-        deprecate,
+//         deprecate,
         git,
         teams
     ]
