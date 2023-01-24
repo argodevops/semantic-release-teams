@@ -1,4 +1,4 @@
-name: release
+name: update
 on:
   workflow_dispatch:
     inputs:
