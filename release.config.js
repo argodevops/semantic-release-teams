@@ -96,7 +96,7 @@ const deprecate = [
 
 const git = '@semantic-release/git';
 
-const teams = ['@argodevops/sematic-release-teams', { packageName: pkg.name }];
+const teams = ['@argodevops/semantic-release-teams', { packageName: pkg.name }];
 
 module.exports = {
     branches,
