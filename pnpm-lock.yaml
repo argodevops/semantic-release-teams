@@ -18,7 +18,7 @@ specifiers:
   '@semantic-release/npm': ^9.0.2
   '@semantic-release/release-notes-generator': ^10.0.3
   '@types/jest': ^29.4.0
-  axios: ^1.2.5
+  axios: ^1.2.6
   axios-mock-adapter: ^1.21.2
   babel-jest: ^29.4.1
   cz-conventional-changelog: ^3.3.0
@@ -33,7 +33,7 @@ specifiers:
 dependencies:
   '@semantic-release/error': 3.0.0
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
-  axios: 1.2.5
+  axios: 1.2.6
 
 devDependencies:
   '@argodevops/eslint-config': 1.2.1
@@ -47,7 +47,7 @@ devDependencies:
   '@semantic-release/npm': 9.0.2_semantic-release@19.0.5
   '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.5
   '@types/jest': 29.4.0
-  axios-mock-adapter: 1.21.2_axios@1.2.5
+  axios-mock-adapter: 1.21.2_axios@1.2.6
   babel-jest: 29.4.1_@babel+core@7.20.12
   cz-conventional-changelog: 3.3.0
   eslint: 8.32.0
@@ -98,7 +98,7 @@ packages:
     dependencies:
       '@semantic-release/error': 3.0.0
       '@semantic-release/git': 10.0.1_semantic-release@19.0.5
-      axios: 1.2.5
+      axios: 1.2.6
     transitivePeerDependencies:
       - debug
       - semantic-release
@@ -1381,7 +1381,7 @@ packages:
       ajv: 6.12.6
       debug: 4.3.4
       espree: 9.4.1
-      globals: 13.19.0
+      globals: 13.20.0
       ignore: 5.2.4
       import-fresh: 3.3.0
       js-yaml: 4.1.0
@@ -2362,7 +2362,7 @@ packages:
       '@parcel/plugin': 2.8.3
       '@parcel/source-map': 2.1.1
       '@parcel/utils': 2.8.3
-      globals: 13.19.0
+      globals: 13.20.0
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -3224,18 +3224,18 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axios-mock-adapter/1.21.2_axios@1.2.5:
+  /axios-mock-adapter/1.21.2_axios@1.2.6:
     resolution: {integrity: sha512-jzyNxU3JzB2XVhplZboUcF0YDs7xuExzoRSHXPHr+UQajaGmcTqvkkUADgkVI2WkGlpZ1zZlMVdcTMU0ejV8zQ==}
     peerDependencies:
       axios: '>= 0.17.0'
     dependencies:
-      axios: 1.2.5
+      axios: 1.2.6
       fast-deep-equal: 3.1.3
       is-buffer: 2.0.5
     dev: true
 
-  /axios/1.2.5:
-    resolution: {integrity: sha512-9pU/8mmjSSOb4CXVsvGIevN+MlO/t9OWtKadTaLuN85Gge3HGorUckgp8A/2FH4V4hJ7JuQ3LIeI7KAV9ITZrQ==}
+  /axios/1.2.6:
+    resolution: {integrity: sha512-rC/7F08XxZwjMV4iuWv+JpD3E0Ksqg9nac4IIg6RwNuF0JTeWoCo/mBNG54+tNhhI11G3/VDRbdDQTs9hGp4pQ==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
@@ -4428,7 +4428,7 @@ packages:
       file-entry-cache: 6.0.1
       find-up: 5.0.0
       glob-parent: 6.0.2
-      globals: 13.19.0
+      globals: 13.20.0
       grapheme-splitter: 1.0.4
       ignore: 5.2.4
       import-fresh: 3.3.0
@@ -4852,8 +4852,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /globals/13.19.0:
-    resolution: {integrity: sha512-dkQ957uSRWHw7CFXLUtUHQI3g3aWApYhfNR2O6jn/907riyTYKVBmxYVROkBcY614FSSeSJh7Xm7SrUWCxvJMQ==}
+  /globals/13.20.0:
+    resolution: {integrity: sha512-Qg5QtVkCy/kv3FUSlu4ukeZDVf9ee0iXLAUYX13gbR17bnejFTzr4iS9bY7kwCf1NztRNm1t91fjOiyx4CSwPQ==}
     engines: {node: '>=8'}
     dependencies:
       type-fest: 0.20.2
