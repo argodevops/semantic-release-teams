@@ -18,7 +18,7 @@ specifiers:
   '@semantic-release/npm': ^9.0.2
   '@semantic-release/release-notes-generator': ^10.0.3
   '@types/jest': ^29.4.0
-  axios: ^1.3.0
+  axios: ^1.3.1
   axios-mock-adapter: ^1.21.2
   babel-jest: ^29.4.1
   cz-conventional-changelog: ^3.3.0
@@ -33,7 +33,7 @@ specifiers:
 dependencies:
   '@semantic-release/error': 3.0.0
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
-  axios: 1.3.0
+  axios: 1.3.1
 
 devDependencies:
   '@argodevops/eslint-config': 1.2.1
@@ -47,7 +47,7 @@ devDependencies:
   '@semantic-release/npm': 9.0.2_semantic-release@19.0.5
   '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.5
   '@types/jest': 29.4.0
-  axios-mock-adapter: 1.21.2_axios@1.3.0
+  axios-mock-adapter: 1.21.2_axios@1.3.1
   babel-jest: 29.4.1_@babel+core@7.20.12
   cz-conventional-changelog: 3.3.0
   eslint: 8.33.0
@@ -98,7 +98,7 @@ packages:
     dependencies:
       '@semantic-release/error': 3.0.0
       '@semantic-release/git': 10.0.1_semantic-release@19.0.5
-      axios: 1.3.0
+      axios: 1.3.1
     transitivePeerDependencies:
       - debug
       - semantic-release
@@ -126,7 +126,7 @@ packages:
       '@babel/helper-compilation-targets': 7.20.7_@babel+core@7.20.12
       '@babel/helper-module-transforms': 7.20.11
       '@babel/helpers': 7.20.13
-      '@babel/parser': 7.20.13
+      '@babel/parser': 7.20.15
       '@babel/template': 7.20.7
       '@babel/traverse': 7.20.13
       '@babel/types': 7.20.7
@@ -401,8 +401,8 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
 
-  /@babel/parser/7.20.13:
-    resolution: {integrity: sha512-gFDLKMfpiXCsjt4za2JA9oTMn70CeseCehb11kRZgvd7+F67Hih3OHOK24cRrWECJ/ljfPGac6ygXAs/C8kIvw==}
+  /@babel/parser/7.20.15:
+    resolution: {integrity: sha512-DI4a1oZuf8wC+oAJA9RW6ga3Zbe8RZFt7kD9i4qAspz3I/yHet1VvC3DiSy/fsUvv5pvJuNPh0LPOdCcqinDPg==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
@@ -826,8 +826,8 @@ packages:
       '@babel/helper-plugin-utils': 7.20.2
     dev: true
 
-  /@babel/plugin-transform-block-scoping/7.20.14_@babel+core@7.20.12:
-    resolution: {integrity: sha512-sMPepQtsOs5fM1bwNvuJJHvaCfOEQfmc01FGw0ELlTpTJj5Ql/zuNRRldYhAPys4ghXdBIQJbRVYi44/7QflQQ==}
+  /@babel/plugin-transform-block-scoping/7.20.15_@babel+core@7.20.12:
+    resolution: {integrity: sha512-Vv4DMZ6MiNOhu/LdaZsT/bsLRxgL94d269Mv4R/9sp6+Mp++X/JqypZYypJXLlM4mlL352/Egzbzr98iABH1CA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1199,7 +1199,7 @@ packages:
       '@babel/plugin-transform-arrow-functions': 7.20.7_@babel+core@7.20.12
       '@babel/plugin-transform-async-to-generator': 7.20.7_@babel+core@7.20.12
       '@babel/plugin-transform-block-scoped-functions': 7.18.6_@babel+core@7.20.12
-      '@babel/plugin-transform-block-scoping': 7.20.14_@babel+core@7.20.12
+      '@babel/plugin-transform-block-scoping': 7.20.15_@babel+core@7.20.12
       '@babel/plugin-transform-classes': 7.20.7_@babel+core@7.20.12
       '@babel/plugin-transform-computed-properties': 7.20.7_@babel+core@7.20.12
       '@babel/plugin-transform-destructuring': 7.20.7_@babel+core@7.20.12
@@ -1264,7 +1264,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.18.6
-      '@babel/parser': 7.20.13
+      '@babel/parser': 7.20.15
       '@babel/types': 7.20.7
     dev: true
 
@@ -1278,7 +1278,7 @@ packages:
       '@babel/helper-function-name': 7.19.0
       '@babel/helper-hoist-variables': 7.18.6
       '@babel/helper-split-export-declaration': 7.18.6
-      '@babel/parser': 7.20.13
+      '@babel/parser': 7.20.15
       '@babel/types': 7.20.7
       debug: 4.3.4
       globals: 11.12.0
@@ -2923,7 +2923,7 @@ packages:
   /@types/babel__core/7.20.0:
     resolution: {integrity: sha512-+n8dL/9GWblDO0iU6eZAwEIJVr5DWigtle+Q6HLOrh/pdbXOhOtqzq8VPPE2zvNJzSKY4vH/z3iT3tn0A3ypiQ==}
     dependencies:
-      '@babel/parser': 7.20.13
+      '@babel/parser': 7.20.15
       '@babel/types': 7.20.7
       '@types/babel__generator': 7.6.4
       '@types/babel__template': 7.4.1
@@ -2939,7 +2939,7 @@ packages:
   /@types/babel__template/7.4.1:
     resolution: {integrity: sha512-azBFKemX6kMg5Io+/rdGT0dkGreboUVR0Cdm3fz9QJWpaQGJRQXl7C+6hOTCZcMll7KFyEQpgbYI2lHdsS4U7g==}
     dependencies:
-      '@babel/parser': 7.20.13
+      '@babel/parser': 7.20.15
       '@babel/types': 7.20.7
     dev: true
 
@@ -3224,18 +3224,18 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axios-mock-adapter/1.21.2_axios@1.3.0:
+  /axios-mock-adapter/1.21.2_axios@1.3.1:
     resolution: {integrity: sha512-jzyNxU3JzB2XVhplZboUcF0YDs7xuExzoRSHXPHr+UQajaGmcTqvkkUADgkVI2WkGlpZ1zZlMVdcTMU0ejV8zQ==}
     peerDependencies:
       axios: '>= 0.17.0'
     dependencies:
-      axios: 1.3.0
+      axios: 1.3.1
       fast-deep-equal: 3.1.3
       is-buffer: 2.0.5
     dev: true
 
-  /axios/1.3.0:
-    resolution: {integrity: sha512-oCye5nHhTypzkdLIvF9SaHfr8UAquqCn1KY3j8vsrjeol8yohAdGxIpRPbF1bOLsx33HOAatdfMX1yzsj2cHwg==}
+  /axios/1.3.1:
+    resolution: {integrity: sha512-78pWJsQTceInlyaeBQeYZ/QgZeWS8hGeKiIJiDKQe3hEyBb7sEMq0K4gjx+Va6WHTYO4zI/RRl8qGRzn0YMadA==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
@@ -5381,7 +5381,7 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       '@babel/core': 7.20.12
-      '@babel/parser': 7.20.13
+      '@babel/parser': 7.20.15
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.0
       semver: 6.3.0
