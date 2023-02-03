@@ -18,7 +18,7 @@ specifiers:
   '@semantic-release/npm': ^9.0.2
   '@semantic-release/release-notes-generator': ^10.0.3
   '@types/jest': ^29.4.0
-  axios: ^1.3.1
+  axios: ^1.3.2
   axios-mock-adapter: ^1.21.2
   babel-jest: ^29.4.1
   cz-conventional-changelog: ^3.3.0
@@ -33,7 +33,7 @@ specifiers:
 dependencies:
   '@semantic-release/error': 3.0.0
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
-  axios: 1.3.1
+  axios: 1.3.2
 
 devDependencies:
   '@argodevops/eslint-config': 1.2.1
@@ -47,7 +47,7 @@ devDependencies:
   '@semantic-release/npm': 9.0.2_semantic-release@19.0.5
   '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.5
   '@types/jest': 29.4.0
-  axios-mock-adapter: 1.21.2_axios@1.3.1
+  axios-mock-adapter: 1.21.2_axios@1.3.2
   babel-jest: 29.4.1_@babel+core@7.20.12
   cz-conventional-changelog: 3.3.0
   eslint: 8.33.0
@@ -98,7 +98,7 @@ packages:
     dependencies:
       '@semantic-release/error': 3.0.0
       '@semantic-release/git': 10.0.1_semantic-release@19.0.5
-      axios: 1.3.1
+      axios: 1.3.2
     transitivePeerDependencies:
       - debug
       - semantic-release
@@ -2292,7 +2292,7 @@ packages:
       '@parcel/source-map': 2.1.1
       '@parcel/utils': 2.8.3
       nullthrows: 1.1.1
-      terser: 5.16.2
+      terser: 5.16.3
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
@@ -3224,18 +3224,18 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axios-mock-adapter/1.21.2_axios@1.3.1:
+  /axios-mock-adapter/1.21.2_axios@1.3.2:
     resolution: {integrity: sha512-jzyNxU3JzB2XVhplZboUcF0YDs7xuExzoRSHXPHr+UQajaGmcTqvkkUADgkVI2WkGlpZ1zZlMVdcTMU0ejV8zQ==}
     peerDependencies:
       axios: '>= 0.17.0'
     dependencies:
-      axios: 1.3.1
+      axios: 1.3.2
       fast-deep-equal: 3.1.3
       is-buffer: 2.0.5
     dev: true
 
-  /axios/1.3.1:
-    resolution: {integrity: sha512-78pWJsQTceInlyaeBQeYZ/QgZeWS8hGeKiIJiDKQe3hEyBb7sEMq0K4gjx+Va6WHTYO4zI/RRl8qGRzn0YMadA==}
+  /axios/1.3.2:
+    resolution: {integrity: sha512-1M3O703bYqYuPhbHeya5bnhpYVsDDRyQSabNja04mZtboLNSuZ4YrltestrLXfHgmzua4TpUqRiVKbiQuo2epw==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
@@ -3406,7 +3406,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001450
-      electron-to-chromium: 1.4.284
+      electron-to-chromium: 1.4.286
       node-releases: 2.0.9
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -4029,8 +4029,8 @@ packages:
     dependencies:
       readable-stream: 2.3.7
 
-  /electron-to-chromium/1.4.284:
-    resolution: {integrity: sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==}
+  /electron-to-chromium/1.4.286:
+    resolution: {integrity: sha512-Vp3CVhmYpgf4iXNKAucoQUDcCrBQX3XLBtwgFqP9BUXuucgvAV9zWp1kYU7LL9j4++s9O+12cb3wMtN4SJy6UQ==}
     dev: true
 
   /emittery/0.13.1:
@@ -7562,8 +7562,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /terser/5.16.2:
-    resolution: {integrity: sha512-JKuM+KvvWVqT7muHVyrwv7FVRPnmHDwF6XwoIxdbF5Witi0vu99RYpxDexpJndXt3jbZZmmWr2/mQa6HvSNdSg==}
+  /terser/5.16.3:
+    resolution: {integrity: sha512-v8wWLaS/xt3nE9dgKEWhNUFP6q4kngO5B8eYFUuebsu7Dw/UNAnpUod6UHo04jSSkv8TzKHjZDSd7EXdDQAl8Q==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
