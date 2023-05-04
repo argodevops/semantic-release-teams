@@ -9,77 +9,9 @@ const branches = [
     }
 ];
 
-const commitAnalyzer = [
-    '@semantic-release/commit-analyzer',
-    {
-        releaseRules: [
-            {
-                type: 'revert',
-                scope: '*',
-                release: 'patch'
-            },
-            {
-                type: 'chore',
-                scope: '*',
-                release: 'patch'
-            },
-            {
-                type: 'refactor',
-                scope: '*',
-                release: 'patch'
-            },
-            {
-                type: 'perf',
-                scope: '*',
-                release: 'patch'
-            }
-        ]
-    }
-];
-
-const releaseNotesGenerator = [
-    '@semantic-release/release-notes-generator',
-    {
-        parserOpts: {
-            noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING']
-        },
-        presetConfig: {
-            types: [
-                {
-                    type: 'feat',
-                    section: 'Features'
-                },
-                {
-                    type: 'fix',
-                    section: 'Bug Fixes'
-                },
-                {
-                    type: 'revert',
-                    section: 'Internal',
-                    hidden: false
-                },
-                {
-                    type: 'chore',
-                    section: 'Internal',
-                    hidden: false
-                },
-                {
-                    type: 'refactor',
-                    section: 'Internal',
-                    hidden: false
-                },
-                {
-                    type: 'perf',
-                    section: 'Internal',
-                    hidden: false
-                }
-            ]
-        }
-    }
-];
-
+const commitAnalyzer = '@semantic-release/commit-analyzer';
+const releaseNotesGenerator = '@semantic-release/release-notes-generator';
 const changelog = '@semantic-release/changelog';
-
 const npm = '@semantic-release/npm';
 
 const deprecate = [
@@ -105,7 +37,7 @@ module.exports = {
         releaseNotesGenerator,
         changelog,
         npm,
-//         deprecate,
+        deprecate,
         git,
         teams
     ]
