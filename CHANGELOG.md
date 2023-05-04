@@ -1,3 +1,12 @@
+## [1.0.17](https://github.com/argodevops/semantic-release-teams/compare/v1.0.16...v1.0.17) (2023-05-04)
+
+
+### Bug Fixes
+
+* 🐛 deploy with dist ([1e9550a](https://github.com/argodevops/semantic-release-teams/commit/1e9550a8278c7d904180c5758c6d51458f7ebdc9))
+* 🐛 use dependency with dist ([47f8402](https://github.com/argodevops/semantic-release-teams/commit/47f84027421187858836fe5a5caa597dc8b4d434))
+* 🐛 use dependency with dist ([2d5509f](https://github.com/argodevops/semantic-release-teams/commit/2d5509ff22aa9448975282b1395d1be9ffc9c280))
+
 ## [1.0.15](https://github.com/argodevops/semantic-release-teams/compare/v1.0.14...v1.0.15) (2023-01-24)
 
 
