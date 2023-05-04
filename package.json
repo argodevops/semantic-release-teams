@@ -4,7 +4,6 @@
   "description": "plugin for semantic release to notify multiple teams channels of a release",
   "source": "src/index.js",
   "main": "dist/index.js",
-  "packageManager:": "pnpm@7.25.0",
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
