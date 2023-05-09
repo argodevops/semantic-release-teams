@@ -1956,7 +1956,7 @@ packages:
       '@octokit/request-error': 3.0.3
       '@octokit/types': 9.2.1
       is-plain-object: 5.0.0
-      node-fetch: 2.6.10
+      node-fetch: 2.6.11
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
       - encoding
@@ -2250,7 +2250,7 @@ packages:
       '@parcel/source-map': 2.1.1
       '@parcel/utils': 2.8.3
       nullthrows: 1.1.1
-      terser: 5.17.2
+      terser: 5.17.3
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
@@ -3332,7 +3332,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001486
-      electron-to-chromium: 1.4.385
+      electron-to-chromium: 1.4.388
       node-releases: 2.0.10
       update-browserslist-db: 1.0.11(browserslist@4.21.5)
     dev: true
@@ -3940,8 +3940,8 @@ packages:
     dependencies:
       readable-stream: 2.3.8
 
-  /electron-to-chromium@1.4.385:
-    resolution: {integrity: sha512-L9zlje9bIw0h+CwPQumiuVlfMcV4boxRjFIWDcLfFqTZNbkwOExBzfmswytHawObQX4OUhtNv8gIiB21kOurIg==}
+  /electron-to-chromium@1.4.388:
+    resolution: {integrity: sha512-xZ0y4zjWZgp65okzwwt00f2rYibkFPHUv9qBz+Vzn8cB9UXIo9Zc6Dw81LJYhhNt0G/vR1OJEfStZ49NKl0YxQ==}
     dev: true
 
   /emittery@0.13.1:
@@ -6368,8 +6368,8 @@ packages:
     dependencies:
       lodash: 4.17.21
 
-  /node-fetch@2.6.10:
-    resolution: {integrity: sha512-5YytjUVbwzjE/BX4N62vnPPkGNxlJPwdA9/ArUc4pcM6cYS4Hinuv4VazzwjMGgnWuiQqcemOanib/5PpcsGug==}
+  /node-fetch@2.6.11:
+    resolution: {integrity: sha512-4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==}
     engines: {node: 4.x || >=6.0.0}
     peerDependencies:
       encoding: ^0.1.0
@@ -7617,8 +7617,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /terser@5.17.2:
-    resolution: {integrity: sha512-1D1aGbOF1Mnayq5PvfMc0amAR1y5Z1nrZaGCvI5xsdEfZEVte8okonk02OiaK5fw5hG1GWuuVsakOnpZW8y25A==}
+  /terser@5.17.3:
+    resolution: {integrity: sha512-AudpAZKmZHkG9jueayypz4duuCFJMMNGRMwaPvQKWfxKedh8Z2x3OCoDqIIi1xx5+iwx1u6Au8XQcc9Lke65Yg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
