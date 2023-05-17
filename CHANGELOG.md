@@ -1,3 +1,10 @@
+## [1.0.19](https://github.com/argodevops/semantic-release-teams/compare/v1.0.18...v1.0.19) (2023-05-17)
+
+
+### Bug Fixes
+
+* removed teams from release config ([13b1db8](https://github.com/argodevops/semantic-release-teams/commit/13b1db85acba7cbd84f5ccb55aa2e5b2a692835d))
+
 ## [1.0.18](https://github.com/argodevops/semantic-release-teams/compare/v1.0.17...v1.0.18) (2023-05-17)
 
 
