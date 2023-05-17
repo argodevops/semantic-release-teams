@@ -38,10 +38,13 @@ jobs:
         run: pnpm install
 
       - name: Update dependencies
-        run: |
-          pnpm update
-          pnpm audit --fix
-          pnpm install --no-frozen-lockfile
+        run: pnpm update
+        
+      - name: Audit
+        run: pnpm audit --fix
+        
+      - name: Update lockfile
+        run: pnpm install --no-frozen-lockfile
 
       - name: Build
         run: pnpm build
