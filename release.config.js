@@ -38,7 +38,7 @@ module.exports = {
         changelog,
         npm,
         deprecate,
-        git,
-        teams
+        git
+//         teams
     ]
 };
