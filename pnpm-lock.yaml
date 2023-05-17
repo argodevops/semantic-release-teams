@@ -2091,7 +2091,7 @@ packages:
       dotenv: 7.0.0
       dotenv-expand: 5.1.0
       json5: 2.2.3
-      msgpackr: 1.9.1
+      msgpackr: 1.9.2
       nullthrows: 1.1.1
       semver: 5.7.1
     dev: true
@@ -3333,7 +3333,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001487
+      caniuse-lite: 1.0.30001488
       electron-to-chromium: 1.4.397
       node-releases: 2.0.10
       update-browserslist-db: 1.0.11(browserslist@4.21.5)
@@ -3389,8 +3389,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite@1.0.30001487:
-    resolution: {integrity: sha512-83564Z3yWGqXsh2vaH/mhXfEM0wX+NlBCm1jYHOb97TrTWJEmPTccZgeLTPBUUb0PNVo+oomb7wkimZBIERClA==}
+  /caniuse-lite@1.0.30001488:
+    resolution: {integrity: sha512-NORIQuuL4xGpIy6iCCQGN4iFjlBXtfKWIenlUuyZJumLRIindLb7wXM+GO8erEhb7vXfcnf4BAg2PrSDN5TNLQ==}
     dev: true
 
   /cardinal@2.1.1:
@@ -6036,7 +6036,7 @@ packages:
     resolution: {integrity: sha512-V5V5Xa2Hp9i2XsbDALkBTeHXnBXh/lEmk9p22zdr7jtuOIY9TGhjK6vAvTpOOx9IKU4hJkRWZxn/HsvR1ELLtA==}
     requiresBuild: true
     dependencies:
-      msgpackr: 1.9.1
+      msgpackr: 1.9.2
       node-addon-api: 4.3.0
       node-gyp-build-optional-packages: 5.0.3
       ordered-binary: 1.4.0
@@ -6340,8 +6340,8 @@ packages:
     dev: true
     optional: true
 
-  /msgpackr@1.9.1:
-    resolution: {integrity: sha512-jJdrNH8tzfCtT0rjPFryBXjRDQE7rqfLkah4/8B4gYa7NNZYFBcGxqWBtfQpGC+oYyBwlkj3fARk4aooKNPHxg==}
+  /msgpackr@1.9.2:
+    resolution: {integrity: sha512-xtDgI3Xv0AAiZWLRGDchyzBwU6aq0rwJ+W+5Y4CZhEWtkl/hJtFFLc+3JtGTw7nz1yquxs7nL8q/yA2aqpflIQ==}
     optionalDependencies:
       msgpackr-extract: 3.0.2
     dev: true
