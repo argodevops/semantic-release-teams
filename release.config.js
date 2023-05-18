@@ -28,7 +28,7 @@ const deprecate = [
 
 const git = '@semantic-release/git';
 
-const teams = ['@argodevops/semantic-release-teams', { packageName: pkg.name }];
+// const teams = ['@argodevops/semantic-release-teams', { packageName: pkg.name }];
 
 module.exports = {
     branches,
@@ -39,6 +39,6 @@ module.exports = {
         npm,
         deprecate,
         git
-//         teams
+        //         teams
     ]
 };
