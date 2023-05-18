@@ -1,3 +1,11 @@
+## [1.0.20](https://github.com/argodevops/semantic-release-teams/compare/v1.0.19...v1.0.20) (2023-05-18)
+
+
+### Bug Fixes
+
+* 🐛 remove files key ([1879ff4](https://github.com/argodevops/semantic-release-teams/commit/1879ff4de364bc4c8ca04de38183edf8c4920efa))
+* dependecy updates ([ad93892](https://github.com/argodevops/semantic-release-teams/commit/ad93892b579ff1ffe65ba80479f053edb1004b00))
+
 ## [1.0.19](https://github.com/argodevops/semantic-release-teams/compare/v1.0.18...v1.0.19) (2023-05-17)
 
 
