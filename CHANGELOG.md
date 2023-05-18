@@ -1,3 +1,10 @@
+## [1.0.21](https://github.com/argodevops/semantic-release-teams/compare/v1.0.20...v1.0.21) (2023-05-18)
+
+
+### Bug Fixes
+
+* 🐛 remove line for teams notifications ([a5aa75e](https://github.com/argodevops/semantic-release-teams/commit/a5aa75e1a512172e19fd653622de52157e746f8f))
+
 ## [1.0.20](https://github.com/argodevops/semantic-release-teams/compare/v1.0.19...v1.0.20) (2023-05-18)
 
 
