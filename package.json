@@ -25,6 +25,10 @@
     "url": "https://github.com/argodevops/semantic-release-teams/issues"
   },
   "homepage": "https://github.com/argodevops/semantic-release-teams#readme",
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
   "devDependencies": {
     "@argodevops/eslint-config": "^1.2.1",
     "@argodevops/semantic-release-teams": "1.0.16",
