@@ -19,6 +19,6 @@ module.exports = {
         '\\.[jt]sx?$': 'babel-jest'
     },
     transformIgnorePatterns: [
-        "node_modules/@semantic-release/error"
+        "<rootDir>/node_modules/@semantic-release/error"
     ]
 };
