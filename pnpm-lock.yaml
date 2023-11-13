@@ -56,7 +56,7 @@ devDependencies:
     version: 29.5.4
   axios-mock-adapter:
     specifier: ^1.21.5
-    version: 1.21.5(axios@1.6.0)
+    version: 1.22.0(axios@1.6.0)
   babel-jest:
     specifier: ^29.6.2
     version: 29.6.2(@babel/core@7.22.10)
@@ -3546,8 +3546,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axios-mock-adapter@1.21.5(axios@1.6.0):
-    resolution: {integrity: sha512-5NI1V/VK+8+JeTF8niqOowuysA4b8mGzdlMN/QnTnoXbYh4HZSNiopsDclN2g/m85+G++IrEtUdZaQ3GnaMsSA==}
+  /axios-mock-adapter@1.22.0(axios@1.6.0):
+    resolution: {integrity: sha512-dmI0KbkyAhntUR05YY96qg2H6gg0XMl2+qTW0xmYg6Up+BFBAJYRLROMXRdDEL06/Wqwa0TJThAYvFtSFdRCZw==}
     peerDependencies:
       axios: '>= 0.17.0'
     dependencies:
