@@ -1,3 +1,11 @@
+## [1.0.23](https://github.com/argodevops/semantic-release-teams/compare/v1.0.22...v1.0.23) (2024-12-16)
+
+
+### Bug Fixes
+
+* 🐛 broken tests ([8b9c980](https://github.com/argodevops/semantic-release-teams/commit/8b9c9800d64caf57a8eeefb06b27356c36c4ffe4))
+* dependecy updates ([d23a31a](https://github.com/argodevops/semantic-release-teams/commit/d23a31ac8508af75c941f1b57fd57b36839cd2fc))
+
 ## [1.0.22](https://github.com/argodevops/semantic-release-teams/compare/v1.0.21...v1.0.22) (2023-08-16)
 
 
