@@ -2172,8 +2172,8 @@ packages:
   domutils@2.8.0:
     resolution: {integrity: sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==}
 
-  domutils@3.1.0:
-    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
+  domutils@3.2.1:
+    resolution: {integrity: sha512-xWXmuRnN9OMP6ptPd2+H0cCbcYBULa5YDTbMm/2lvkWvNA3O4wcW+GvzooqBuNM8yy6pl3VIAeJTUUWUbfI5Fw==}
 
   dot-prop@5.3.0:
     resolution: {integrity: sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==}
@@ -2374,8 +2374,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
 
-  eslint-plugin-react@7.37.2:
-    resolution: {integrity: sha512-EsTAnj9fLVr/GZleBLFbj/sSuXeWmp1eXIN60ceYnZveqEaUCyW4X+Vh4WTdUhCkW4xutXYqTXCUSyqD4rB75w==}
+  eslint-plugin-react@7.37.3:
+    resolution: {integrity: sha512-DomWuTQPFYZwF/7c9W2fkKkStqZmBd3uugfqBYLdkZ3Hii23WzZuOLUskGxB8qkSKqftxEeGL1TB2kMhrce0jA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
@@ -4900,7 +4900,7 @@ snapshots:
       '@babel/core': 7.26.0
       '@babel/eslint-parser': 7.25.9(@babel/core@7.26.0)(eslint@8.57.1)
       eslint: 8.57.1
-      eslint-config-airbnb: 19.0.4(eslint-plugin-import@2.31.0(eslint@8.57.1))(eslint-plugin-jsx-a11y@6.10.2(eslint@8.57.1))(eslint-plugin-react-hooks@4.6.2(eslint@8.57.1))(eslint-plugin-react@7.37.2(eslint@8.57.1))(eslint@8.57.1)
+      eslint-config-airbnb: 19.0.4(eslint-plugin-import@2.31.0(eslint@8.57.1))(eslint-plugin-jsx-a11y@6.10.2(eslint@8.57.1))(eslint-plugin-react-hooks@4.6.2(eslint@8.57.1))(eslint-plugin-react@7.37.3(eslint@8.57.1))(eslint@8.57.1)
       eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0(eslint@8.57.1))(eslint@8.57.1)
       eslint-config-prettier: 9.1.0(eslint@8.57.1)
       eslint-import-resolver-babel-module: 5.3.2(@babel/core@7.26.0)(babel-plugin-module-resolver@5.0.0)
@@ -4908,7 +4908,7 @@ snapshots:
       eslint-plugin-jasmine: 4.2.2
       eslint-plugin-jsx-a11y: 6.10.2(eslint@8.57.1)
       eslint-plugin-prettier: 5.2.1(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.0.2)
-      eslint-plugin-react: 7.37.2(eslint@8.57.1)
+      eslint-plugin-react: 7.37.3(eslint@8.57.1)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.57.1)
     transitivePeerDependencies:
       - '@types/eslint'
@@ -7701,7 +7701,7 @@ snapshots:
       domelementtype: 2.3.0
       domhandler: 4.3.1
 
-  domutils@3.1.0:
+  domutils@3.2.1:
     dependencies:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
@@ -7864,13 +7864,13 @@ snapshots:
       object.entries: 1.1.8
       semver: 7.6.3
 
-  eslint-config-airbnb@19.0.4(eslint-plugin-import@2.31.0(eslint@8.57.1))(eslint-plugin-jsx-a11y@6.10.2(eslint@8.57.1))(eslint-plugin-react-hooks@4.6.2(eslint@8.57.1))(eslint-plugin-react@7.37.2(eslint@8.57.1))(eslint@8.57.1):
+  eslint-config-airbnb@19.0.4(eslint-plugin-import@2.31.0(eslint@8.57.1))(eslint-plugin-jsx-a11y@6.10.2(eslint@8.57.1))(eslint-plugin-react-hooks@4.6.2(eslint@8.57.1))(eslint-plugin-react@7.37.3(eslint@8.57.1))(eslint@8.57.1):
     dependencies:
       eslint: 8.57.1
       eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.31.0(eslint@8.57.1))(eslint@8.57.1)
       eslint-plugin-import: 2.31.0(eslint@8.57.1)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@8.57.1)
-      eslint-plugin-react: 7.37.2(eslint@8.57.1)
+      eslint-plugin-react: 7.37.3(eslint@8.57.1)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.57.1)
       object.assign: 4.1.7
       object.entries: 1.1.8
@@ -7964,7 +7964,7 @@ snapshots:
     dependencies:
       eslint: 8.57.1
 
-  eslint-plugin-react@7.37.2(eslint@8.57.1):
+  eslint-plugin-react@7.37.3(eslint@8.57.1):
     dependencies:
       array-includes: 3.1.8
       array.prototype.findlast: 1.2.5
@@ -8467,7 +8467,7 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.1.0
+      domutils: 3.2.1
       entities: 4.5.0
 
   http-proxy-agent@7.0.2:
