@@ -1,3 +1,21 @@
+## [1.0.24](https://github.com/argodevops/semantic-release-teams/compare/v1.0.23...v1.0.24) (2024-12-30)
+
+
+### Bug Fixes
+
+* dependecy updates ([3760457](https://github.com/argodevops/semantic-release-teams/commit/3760457131320ee65ab3ec6b3acf41a6d393f23b))
+* dependecy updates ([de806b3](https://github.com/argodevops/semantic-release-teams/commit/de806b33fefc91e5a1a59969c14f27729972c47d))
+* dependecy updates ([3a6f543](https://github.com/argodevops/semantic-release-teams/commit/3a6f543e68afccc2ccd3795dfbdfae954c5986f6))
+* dependecy updates ([5d8d44b](https://github.com/argodevops/semantic-release-teams/commit/5d8d44b3b7ea356e99f73c67cdacd448b95fc5e3))
+* dependecy updates ([a519229](https://github.com/argodevops/semantic-release-teams/commit/a519229e83ad5eff4f7ff45c710d8d4ff12c3e3e))
+* dependecy updates ([1ed6bbc](https://github.com/argodevops/semantic-release-teams/commit/1ed6bbc482d6f22345bc17e4f22f5654e9f21345))
+* dependecy updates ([e22ef83](https://github.com/argodevops/semantic-release-teams/commit/e22ef83f40a07769d56dd6ea77df35dea96be995))
+* dependecy updates ([bc9967d](https://github.com/argodevops/semantic-release-teams/commit/bc9967d2aabfcb48e2969a44219a7ac358e65db7))
+* dependecy updates ([3ef376f](https://github.com/argodevops/semantic-release-teams/commit/3ef376f3f15c7563cf0c4ed80ec49b1787000a40))
+* dependecy updates ([d26547f](https://github.com/argodevops/semantic-release-teams/commit/d26547f6a8827b7eef3864ef2e0d2b742220c46b))
+* dependecy updates ([258734e](https://github.com/argodevops/semantic-release-teams/commit/258734ee9b2f4f9333250ea8229aec8ed6092861))
+* dependecy updates ([dd53de7](https://github.com/argodevops/semantic-release-teams/commit/dd53de705a68c43786e3ed88406bfba23c63e724))
+
 ## [1.0.23](https://github.com/argodevops/semantic-release-teams/compare/v1.0.22...v1.0.23) (2024-12-16)
 
 
