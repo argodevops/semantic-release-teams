@@ -1,3 +1,10 @@
+## [1.0.25](https://github.com/argodevops/semantic-release-teams/compare/v1.0.24...v1.0.25) (2024-12-31)
+
+
+### Bug Fixes
+
+* dependecy updates ([22a83f7](https://github.com/argodevops/semantic-release-teams/commit/22a83f7da614ac6a35763a1d69d5164d659d2afd))
+
 ## [1.0.24](https://github.com/argodevops/semantic-release-teams/compare/v1.0.23...v1.0.24) (2024-12-30)
 
 
