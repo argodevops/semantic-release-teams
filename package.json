@@ -60,7 +60,7 @@
   "dependencies": {
     "@semantic-release/error": "^4.0.0",
     "@semantic-release/git": "^10.0.1",
-    "axios": "^1.7.9"
+    "axios": "^1.8.1"
   },
   "pnpm": {
     "overrides": {
