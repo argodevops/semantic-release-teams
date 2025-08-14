@@ -32,8 +32,8 @@
   "devDependencies": {
     "@argodevops/eslint-config": "^1.4.0",
     "@argodevops/semantic-release-teams": "1.0.16",
-    "@babel/core": "^7.28.0",
-    "@babel/preset-env": "^7.28.0",
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
     "@parcel/config-default": "^2.15.4",
     "@parcel/transformer-js": "^2.15.4",
     "@semantic-release/changelog": "^6.0.3",
