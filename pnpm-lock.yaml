@@ -2216,8 +2216,8 @@ packages:
   emojilib@2.4.0:
     resolution: {integrity: sha512-5U0rVMU5Y2n2+ykNLQqMoqklN9ICBT/KsvC1Gz6vqHbz2AXXGkG+Pm5rMWk/8Vjrr/mY9985Hi8DYzn1F09Nyw==}
 
-  env-ci@11.1.1:
-    resolution: {integrity: sha512-mT3ks8F0kwpo7SYNds6nWj0PaRh+qJxIeBVBXAKTN9hphAzZv7s0QAZQbqnB1fAv/r4pJUGE15BV9UrS31FP2w==}
+  env-ci@11.2.0:
+    resolution: {integrity: sha512-D5kWfzkmaOQDioPmiviWAVtKmpPT4/iJmMVQxWxMPJTFyTkdc5JQUfc5iXEeWxcOdsYTKSAiA/Age4NUOqKsRA==}
     engines: {node: ^18.17 || >=20.6.1}
 
   env-paths@2.2.1:
@@ -7514,7 +7514,7 @@ snapshots:
 
   emojilib@2.4.0: {}
 
-  env-ci@11.1.1:
+  env-ci@11.2.0:
     dependencies:
       execa: 8.0.1
       java-properties: 1.0.2
@@ -9678,7 +9678,7 @@ snapshots:
       aggregate-error: 5.0.0
       cosmiconfig: 9.0.0(typescript@5.1.6)
       debug: 4.4.1
-      env-ci: 11.1.1
+      env-ci: 11.2.0
       execa: 9.6.0
       figures: 6.1.0
       find-versions: 6.0.0
