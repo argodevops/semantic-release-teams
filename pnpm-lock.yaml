@@ -3803,8 +3803,8 @@ packages:
     resolution: {integrity: sha512-5b6Y85tPxZZ7QytO+BQzysW31HJku27cRIlkbAXaNx+BdcVi+LlRFmVXzeF6a7JCwJpyw5c4b+YSVImQIrBpuQ==}
     engines: {node: '>=10'}
 
-  ordered-binary@1.6.0:
-    resolution: {integrity: sha512-IQh2aMfMIDbPjI/8a3Edr+PiOpcsB7yo8NdW7aHWVaoR/pcDldunMvnnwbk/auPGqmKeAdxtZl7MHX/QmPwhvQ==}
+  ordered-binary@1.6.1:
+    resolution: {integrity: sha512-QkCdPooczexPLiXIrbVOPYkR3VO3T6v2OyKRkR1Xbhpy7/LAVXwahnRCgRp78Oe/Ehf0C/HATAxfSr6eA1oX+w==}
 
   own-keys@1.0.1:
     resolution: {integrity: sha512-qFOyK5PjiWZd+QQIh+1jhdb9LpxTF0qs7Pm8o5QHYZ0M3vKqSqzsZaEB6oWlxZ+q2sJBMI/Ktgd2N5ZwQoRHfg==}
@@ -8980,7 +8980,7 @@ snapshots:
       msgpackr: 1.11.8
       node-addon-api: 6.1.0
       node-gyp-build-optional-packages: 5.1.1
-      ordered-binary: 1.6.0
+      ordered-binary: 1.6.1
       weak-lru-cache: 1.2.2
     optionalDependencies:
       '@lmdb/lmdb-darwin-arm64': 2.8.5
@@ -9296,7 +9296,7 @@ snapshots:
       strip-ansi: 6.0.1
       wcwidth: 1.0.1
 
-  ordered-binary@1.6.0: {}
+  ordered-binary@1.6.1: {}
 
   own-keys@1.0.1:
     dependencies:
